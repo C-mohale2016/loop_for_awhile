@@ -4,11 +4,11 @@ const assert = require('assert');
 function allPaarl(parl){
   var carRegNumber = parl.split(',');
 
-  for (var i = 0; i < carRegNumber.length; i++)
+  for (var i = 0; i < carRegNumber.length; i++){
+    if (carRegNumber[i].startsWith('CJ')){
 
-  if (carRegNumber[i].startsWith('CJ')){
-
-    // console.log(carRegNumber[i]);
+      // console.log(carRegNumber[i]);
+    }
 
   }
   return carRegNumber[i];
